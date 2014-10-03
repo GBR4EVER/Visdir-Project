@@ -4,8 +4,12 @@ gem 'rails', '3.2.19'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'dotenv-rails', :groups => [:development, :test]
 
 gem 'pg'
+gem 'pry-rails', :group => :development
+# gem 'pony', '~> 1.11'
+# gem 'public_activity'
 
 
 # Gems used only for assets and not required
@@ -23,7 +27,7 @@ end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
