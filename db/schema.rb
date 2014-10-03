@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141003025734) do
+ActiveRecord::Schema.define(:version => 20141003030508) do
 
   create_table "categories", :force => true do |t|
     t.string   "type"
@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(:version => 20141003025734) do
     t.boolean  "pro"
     t.datetime "created_at",            :null => false
     t.datetime "updated_at",            :null => false
+    t.string   "email"
   end
 
 end
